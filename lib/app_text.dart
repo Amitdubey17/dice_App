@@ -7,10 +7,8 @@ class AppText extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
-    return Container(
-      child: Center(
-        child: Text(text, style: TextStyle(color: Colors.blue, fontSize: 32),),
-      ),
+    return Center(
+      child: Text(text, style: const TextStyle(color: Colors.blue, fontSize: 32),),
     );
   }
 }

@@ -3,7 +3,7 @@ import 'package:die_app/gradient_colors.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+   const MaterialApp(
       home: Scaffold(
         body: GradientColors()
       ),
